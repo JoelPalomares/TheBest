@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8B927E"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Wnat is the best?"
+        android:textColor="#ffffff"
+        android:textSize="16pt" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:src="@mipmap/tres" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="El Balón de Oro es un premio otorgado anualmente por la revista francesa especializada France Football,​ estando considerado como el mayor honor individual a nivel futbolístico del mundo. Entregado interrumpidamente desde 1956, a partir de 2009 se fusionó con el premio homólogo del FIFA World Player para designar al mejor futbolista hasta que ambos galardones volvieron a separarse en 2016.​"
+        android:textSize="10pt"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>
